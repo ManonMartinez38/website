@@ -1,0 +1,194 @@
+h1 {
+    font-family: "cinzel";
+    margin: 40px 0 10px;
+    text-align: center;
+}
+#slogan {
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-family : "Abril Fatface", serif;
+   letter-spacing: 2px;
+}
+#bienvenue {
+    background-image: url(../images/bienvenu.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    font-size: 90px;
+    font-family:  "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: whitesmoke;
+    text-shadow:0 0 10px black ;
+    padding-top: 200px;
+    padding-left: 100px;
+    text-align: left;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+}
+#top {
+    font-size: 19px;
+    text-align: center;
+}
+
+body
+{
+    font-family: "Playfair Display"; 
+  
+}
+.chambre {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 30px;
+    font-size: 40px;
+    color: beige;
+    text-shadow: 0px 0 2px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+   
+}
+.chambre:hover  {
+    border: 3px solid #7AA95C;
+}
+#pierre {
+    background-image: url(https://www.flemarie.fr/blog/wp-content/uploads/2017/03/deco-chambre-pierre-3.jpg);
+    
+}
+
+#bois {
+    background-image: url(https://www.ovonetwork.com/blog/wp-content/uploads/2022/08/image-101.png);
+    
+}
+#terre {
+    background-image: url(https://cdn.prod.website-files.com/614353699d645ffa72204f14/6183e39d10f5c44ba591bea8_le-mas-vermentino-chambre-terre-de-sienne-1.jpg);
+   
+}
+#flexbox-chambre {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#chambre1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 20px 0 20px;
+
+}
+h2 {
+    width: 40%;
+    padding-left: 30px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+
+}
+#presentation {
+    width : 50%;
+line-height: 2;
+}
+#presentation p{
+    margin-bottom: 40px;
+}
+#presentation a, #spa a , .cliquez{
+    list-style: none;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+ 
+}
+
+#spa{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding : 20px 40px 20px 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    align-items: center;
+}
+#spa a {
+   margin-top: 30px;
+}
+.prestations a {
+    list-style: none;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+}
+.prestations {
+    line-height: 30px;
+    padding: 40px 20px 40px 20px;
+    background-image: url(https://www.endro-cosmetiques.com/cdn/shop/files/push-home-1.webp?v=1723444922);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.soins {
+
+    margin: 0px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+
+}
+.soins p {
+    line-height: 2.6;
+    padding-right: 60px;
+    align-items: center;
+
+
+}
+.soins a {
+    margin-top: 40px;
+}
+.soins img{
+    height: 400px;
+    width: 400px;
+    margin-right: 30px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+  
+
+}
+.cliquez {
+    align-items: center;
+}
+footer {
+    text-align: center; 
+    font-size: 11px; 
+    color: black;
+    background-image: url(https://img.freepik.com/vecteurs-libre/arriere-plan-conception-motif-organique-abstrait_1048-19286.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1723161600&semt=ais_hybrid);
+}
+
